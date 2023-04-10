@@ -1,4 +1,52 @@
 @charset "UTF-8";
-body {
-    text-deco: ;
+* {
+    margin: 0px;
+    padding: 0px;
 }
+body {
+    min-height: 100vh;
+    
+    
+    
+}
+header {
+    background-color: black;
+    color: white;
+    font-variant:small-caps;
+    padding-top: 50px;
+    text-align: center;
+}
+header > p {
+    padding-bottom: 50px;
+    
+
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+a {
+   text-decoration: none; 
+   color: white;
+   font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+.imagem {
+    background-color: rgba(0, 0, 0, 0.677);
+    color: white;
+
+}
+footer {
+    background-color: black;
+    color: white;
+    padding:10px ;
+    text-align: center;
+}
+ p {
+    background-color: rgba(0, 0, 0, 0.348);
+    width: 400px;
+ }
